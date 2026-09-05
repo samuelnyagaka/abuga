@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <!-- Sewing Needle & Thread Icon -->
+  <g transform="translate(10, 8)">
+    <circle cx="22" cy="22" r="21" fill="url(#navyGrad)" />
+    <!-- Needle -->
+    <path d="M12 32 L30 14" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+    <circle cx="31" cy="13" r="2" fill="url(#goldGrad)" />
+    <!-- Thread loop -->
+    <path d="M14 26 C10 18, 26 10, 31 13 C35 15, 33 28, 25 30" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="2,2" />
+  </g>
+  <!-- Text -->
+  <text x="64" y="28" font-family="'Outfit', sans-serif" font-size="20" font-weight="800" fill="#0f172a" letter-spacing="-0.5">STITCHCRAFT</text>
+  <text x="64" y="44" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#d97706" letter-spacing="1.5">UNIFORM MASTERS</text>
+</svg>

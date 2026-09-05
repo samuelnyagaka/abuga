@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="secBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#secBg)" />
+  <!-- Security guard uniform shirt silhouette -->
+  <path d="M 215,120 L 300,150 L 385,120 L 440,240 L 390,255 L 375,380 L 225,380 L 210,255 L 160,240 Z" fill="#1e293b" stroke="#334155" stroke-width="2" />
+  <!-- Shoulder Epaulettes -->
+  <polygon points="190,125 240,140 235,150 185,135" fill="#facc15" stroke="#ca8a04" stroke-width="1.5" />
+  <polygon points="410,125 360,140 365,150 415,135" fill="#facc15" stroke="#ca8a04" stroke-width="1.5" />
+  <!-- Chest Utility Pockets -->
+  <rect x="235" y="210" width="45" height="55" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1.5" />
+  <polygon points="235,210 257,222 280,210" fill="#334155" />
+  <rect x="320" y="210" width="45" height="55" rx="4" fill="#0f172a" stroke="#475569" stroke-width="1.5" />
+  <polygon points="320,210 342,222 365,210" fill="#334155" />
+  <!-- Security Badge -->
+  <polygon points="257,180 270,185 270,200 257,208 244,200 244,185" fill="#facc15" stroke="#a16207" stroke-width="1" />
+  <!-- Title label -->
+  <rect x="50" y="385" width="500" height="40" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255, 255, 255, 0.15)" />
+  <text x="300" y="411" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">HEAVY-DUTY GUARD &amp; WORKWEAR UNIFORMS</text>
+</svg>

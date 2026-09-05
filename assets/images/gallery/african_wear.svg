@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="afrBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+    <linearGradient id="goldEmb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#afrBg)" />
+  <!-- Modern Agbada / African Ceremonial Silhouette -->
+  <path d="M 170,140 L 300,160 L 430,140 L 460,320 L 390,340 L 380,380 L 220,380 L 210,340 L 140,320 Z" fill="#292524" stroke="url(#goldEmb)" stroke-width="2" />
+  <!-- Traditional Geometric Embroidery on Chest -->
+  <g stroke="url(#goldEmb)" stroke-width="2" fill="none">
+    <circle cx="300" cy="235" r="45" />
+    <circle cx="300" cy="235" r="30" stroke-dasharray="3,3" />
+    <polygon points="300,195 335,235 300,275 265,235" />
+    <line x1="300" y1="165" x2="300" y2="310" stroke-width="3" />
+    <line x1="240" y1="235" x2="360" y2="235" stroke-width="3" />
+  </g>
+  <!-- Title label -->
+  <rect x="50" y="385" width="500" height="40" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255, 255, 255, 0.15)" />
+  <text x="300" y="411" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">CONTEMPORARY AFRICAN CEREMONIAL ATTIRE</text>
+</svg>

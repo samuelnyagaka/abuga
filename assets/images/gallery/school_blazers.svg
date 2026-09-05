@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bg)" />
+  <!-- Pattern grid -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="75" x2="600" y2="75" /><line x1="0" y1="150" x2="600" y2="150" /><line x1="0" y1="225" x2="600" y2="225" />
+    <line x1="0" y1="300" x2="600" y2="300" /><line x1="0" y1="375" x2="600" y2="375" />
+    <line x1="100" y1="0" x2="100" y2="450" /><line x1="200" y1="0" x2="200" y2="450" /><line x1="300" y1="0" x2="300" y2="450" />
+    <line x1="400" y1="0" x2="400" y2="450" /><line x1="500" y1="0" x2="500" y2="450" />
+  </g>
+  <!-- Blazer silhouette -->
+  <path d="M 210,130 L 300,160 L 390,130 L 440,240 L 400,255 L 380,380 L 220,380 L 200,255 L 160,240 Z" fill="#172554" stroke="#3b82f6" stroke-width="2" />
+  <!-- Lapels -->
+  <polygon points="250,145 300,270 280,275 225,160" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" />
+  <polygon points="350,145 300,270 320,275 375,160" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" />
+  <!-- Shirt & Tie -->
+  <polygon points="280,150 300,165 320,150 310,210 290,210" fill="#ffffff" />
+  <polygon points="296,170 304,170 308,250 300,265 292,250" fill="url(#gold)" />
+  <!-- Gold Embroidered Crest -->
+  <circle cx="255" cy="235" r="18" fill="url(#gold)" opacity="0.9" />
+  <polygon points="255,224 260,234 271,234 262,241 265,251 255,244 245,251 248,241 239,234 250,234" fill="#0f172a" />
+  <!-- Brass buttons -->
+  <circle cx="295" cy="305" r="6" fill="url(#gold)" stroke="#78350f" stroke-width="1" />
+  <circle cx="295" cy="335" r="6" fill="url(#gold)" stroke="#78350f" stroke-width="1" />
+  <!-- Title label -->
+  <rect x="50" y="385" width="500" height="40" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255, 255, 255, 0.15)" />
+  <text x="300" y="411" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">PREMIUM SCHOOL BLAZERS &amp; CREST EMBROIDERY</text>
+</svg>

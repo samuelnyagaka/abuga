@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="suitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#suitBg)" />
+  <!-- Tuxedo / Bespoke 3-piece suit silhouette -->
+  <path d="M 215,120 L 300,150 L 385,120 L 435,235 L 395,250 L 380,380 L 220,380 L 205,250 L 165,235 Z" fill="#090d16" stroke="url(#goldAccent)" stroke-width="2" />
+  <!-- Satin Peak Lapels -->
+  <polygon points="260,135 300,280 280,285 220,150" fill="#18181b" stroke="#71717a" stroke-width="1.5" />
+  <polygon points="340,135 300,280 320,285 380,150" fill="#18181b" stroke="#71717a" stroke-width="1.5" />
+  <!-- Vest / Waistcoat -->
+  <polygon points="280,210 300,225 320,210 315,310 300,325 285,310" fill="#27272a" />
+  <circle cx="300" cy="245" r="3" fill="url(#goldAccent)" />
+  <circle cx="300" cy="270" r="3" fill="url(#goldAccent)" />
+  <circle cx="300" cy="295" r="3" fill="url(#goldAccent)" />
+  <!-- Bowtie -->
+  <polygon points="282,160 318,170 318,160 282,170" fill="#000000" stroke="url(#goldAccent)" stroke-width="1.5" />
+  <rect x="296" y="162" width="8" height="6" fill="url(#goldAccent)" />
+  <!-- White shirt wing collar -->
+  <polygon points="275,145 300,165 325,145 315,190 285,190" fill="#ffffff" />
+  <!-- Title label -->
+  <rect x="50" y="385" width="500" height="40" rx="8" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255, 255, 255, 0.15)" />
+  <text x="300" y="411" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">BESPOKE 3-PIECE ITALIAN WOOL WEDDING TUXEDO</text>
+</svg>
